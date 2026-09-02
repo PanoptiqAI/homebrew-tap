@@ -1,5 +1,5 @@
 class Cogenity < Formula
-  desc "Cogenity by PANOPTIQ, a multi-account manager for Claude Code and Codex"
+  desc "Cogenity by Kenneth Lynne, a multi-account manager for Claude Code and Codex"
   homepage "https://cogenity.sh"
   license :cannot_represent
 
@@ -7,13 +7,13 @@ class Cogenity < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/PanoptiqAI/cogenity/releases/download/v0.22.1/cogenity-darwin-arm64"
-      sha256 "89e1f3d4578014b2dfe9d0e62f755d53a11a1d48a0a0f48ce38100b934a1ca8d"
+      url "https://github.com/kennethlynne/cogenity/releases/download/v0.23.0/cogenity-darwin-arm64"
+      sha256 "351525d15d4d7a769396174d3fea94bb0767f007605fd973cb3581895ac7e674"
     end
 
     on_intel do
-      url "https://github.com/PanoptiqAI/cogenity/releases/download/v0.22.1/cogenity-darwin-x64"
-      sha256 "521bafd94ba4a33208918da64150f601774f156d941cda45cffb27cdc996efbc"
+      url "https://github.com/kennethlynne/cogenity/releases/download/v0.23.0/cogenity-darwin-x64"
+      sha256 "38b082a4a2562af8863a9979235ee79b85fd2775d07e2827911d721b0c0f1706"
     end
   end
 
